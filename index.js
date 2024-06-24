@@ -1,6 +1,16 @@
 const dotenv = require("dotenv");
+const express = require("express");
+const app = express();
 const {Client, GatewayIntentBits} = require('discord.js');
 
+//express
+app.get("/", (req, res) => {
+    res.send("Assistant");
+});
+
+app.listen(3000, () => {
+    console.log("Server is running on port 3000");
+});
 
 //dotenv
 dotenv.config();
