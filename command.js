@@ -5,10 +5,7 @@ const commands=[
         name:"ping",
         description:"Replies with Pong!"
     },
-    {
-        name:"help",
-        description:"This is a help command"
-    },
+    
     {
         name:"create",
         description:"This is a create command"

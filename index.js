@@ -8,9 +8,7 @@ app.get("/", (req, res) => {
     res.send("Assistant");
 });
 
-app.listen(3000, () => {
-    console.log("Server is running on port 3000");
-});
+
 
 //dotenv
 dotenv.config();
@@ -45,3 +43,8 @@ client.on('interactionCreate',(interaction)=>{
 
 
 client.login(process.env.TOKEN);
+
+
+app.listen(3000, () => {
+    console.log("Server is running on port 3000");
+});
