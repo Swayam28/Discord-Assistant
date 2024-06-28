@@ -1,1 +1,1 @@
-# Made my own discord assistant for my server
+# Made my own assistant for my discord server
